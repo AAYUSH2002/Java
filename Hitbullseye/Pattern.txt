@@ -1,0 +1,174 @@
+                     -----Pattern-----
+      
+
+
+
+
+
+
+
+
+
+(1)
+package coreJava;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n=4;
+         for(int i=1;i<=n;i++){
+             for(int j=1;j<=i;j++){
+             System.out.print("* ");
+             }
+             System.out.println();
+         }
+
+	}
+
+}
+
+
+(2)
+
+package coreJava;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n=4;
+         for(int i=n;i>0;i--){
+             for(int j=i;j>0;j--){
+             System.out.print("* ");
+             }
+             System.out.println();
+         }
+
+	}
+
+}
+
+
+(3)
+
+package coreJava;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n=4;
+         for(int i=1;i<=n;i++){
+             for(int j=1;j<=i;j++){
+             System.out.print("* ");
+             }
+             System.out.println();
+         }
+         for(int i=n-1;i>0;i--){
+             for(int j=i;j>0;j--){
+             System.out.print("* ");
+             }
+             System.out.println();
+         }
+      
+	}
+
+}
+
+
+(4)
+
+package coreJava;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n=4;
+         for(int i=1;i<=n;i++){
+        	 for(int k=4-i;k>0;k--){
+        		 System.out.print(" ");
+        	 }
+             for(int j=1;j<=i;j++){
+             System.out.print("*");
+             }
+             System.out.println();
+         }
+      
+	}
+
+}
+
+
+(5)
+package coreJava;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n=4;
+         for(int i=1;i<=n;i++){
+        	 for(int k=4-i;k>0;k--){
+        		 System.out.print(" ");
+        	 }
+             for(int j=1;j<=i;j++){
+             System.out.print("* ");
+             }
+             System.out.println();
+         }
+      
+	}
+
+}
+
+
+(6)
+
+
+package coreJava;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n=5;
+         for(int i=1;i<=n;i++){
+             for(int j=1;j<=i;j++){
+             System.out.print(j);
+             }
+             System.out.println();
+         }
+      
+	}
+
+}
+
+
+(7)
+
+
+package coreJava;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n=5;
+		 int p=1;
+         for(int i=1;i<=n;i++){
+             for(int j=1;j<=i;j++){
+             System.out.print(p+" ");
+             p++;
+             }
+           
+             System.out.println();
+         }
+      
+	}
+
+}
+
+
+
